@@ -1,0 +1,14 @@
+body
+{
+  background-color: aliceblue;
+  /* background-image: url('./wall/download.jpg'); */
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  border: 2px solid black;
+}
+
+div
+{
+  background-color:bisque;
+}
+
