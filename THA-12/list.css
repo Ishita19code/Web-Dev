@@ -1,0 +1,59 @@
+body
+{
+  font-family: sans-serif;
+  background-color: beige;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+.screen
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.button_css
+{
+  height:30px;
+  width:150px;
+  background-color: white;
+  /* position:relative;
+  left: 15px; */
+  color:black;
+  font-weight: bold;
+}
+.clear_css
+{
+  height:30px;
+  width:150px;
+  background-color: white;
+  /* position:absolute;
+  left:770px;
+  top:8px; */
+  color:black;
+  font-weight: bold;
+}
+.button_css:hover 
+{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#inputbox
+{
+  border: 2px solid black;
+}
+.todolist, .display
+{
+  font-size: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+  /* top: 30px;
+  left: 100px; */
+  font-weight: bold;
+}
+
+#completeid
+{
+  font-family: sans-serif;
+}
