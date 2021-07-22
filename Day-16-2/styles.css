@@ -1,0 +1,42 @@
+.Display
+{
+  padding-top: 9%;
+  padding-left: 37%;
+}
+
+.card
+{
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.outline
+{
+  border: 20px solid black;
+  display: inline-block;
+}
+
+.App
+{
+  display: flex;
+  flex-direction: row;
+  padding: 1.5px;
+  border:2px solid black;
+}
+
+.Row1 .card:nth-child(2n) /*n=1 => first row ka second card white */
+{
+  background: white;
+}
+
+.Row2 .card:nth-child(2n+1) /*n=0 => second row ka first card white */
+{
+  background: white;
+}
+
+/* .Row:nth-child(even), .card:nth-child(odd)
+{
+  background: black;
+} */
