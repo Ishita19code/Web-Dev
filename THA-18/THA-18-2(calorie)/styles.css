@@ -1,0 +1,64 @@
+.card
+{
+  border: 2px solid black;
+  background-color: beige;
+  display: inline-block;
+  width: 90%;
+  height: 100px;
+  border-radius: 5px;
+  margin:5px;
+  box-shadow: 3px 1px 9px -1px #3d581a;
+}
+
+.list
+{
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  height: 300px;
+  width: 350px;
+  padding-left: 30px;
+  box-shadow: 3px 1px 9px -1px #3d581a;
+}
+
+.food
+{
+  position: relative;
+  left: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.food:hover
+{
+  width: 70%;
+  box-shadow: 3px 1px 9px -1px #3d581a;
+}
+
+.cal
+{
+  position: relative;
+  left: 10px;
+  bottom: 10px;
+  font-size: 13px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.heading
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.instructions
+{
+  padding-left: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.read
+{
+  padding-left:20;
+  padding-top:20;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
