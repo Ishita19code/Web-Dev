@@ -1,0 +1,40 @@
+.Display
+{
+  padding-top: 9%;
+  padding-left: 37%;
+}
+
+.card /* This class contains all rows together*/
+{
+  margin: 5px;
+}
+
+.outline
+{
+  border: 20px solid black;
+  display: inline-block;
+}
+
+.card_black
+{
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  display: inline-block;
+}
+
+.card_white
+{
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  display: inline-block;
+}
+
+.Row1
+{
+  width: 257px;
+  height: 32px;
+}
