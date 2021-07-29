@@ -1,0 +1,74 @@
+.bgcolor
+{
+  width: 100vw;
+}
+
+.container
+{
+  position: relative;
+  left:30%;
+}
+
+.instructions
+{
+  padding-left: 120px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.read
+{
+  padding-left:80px;
+  padding-top:20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.list
+{
+  height: 350px;
+  width: 350px;
+  overflow-x: hidden;
+  background: rgba( 255, 255, 255, 0.40 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 8.0px );
+  -webkit-backdrop-filter: blur( 8.0px );
+  border-radius: 10px;
+  padding: 10px 50px 10px 30px;
+}
+
+.card
+{
+  border: 2px solid black;
+  background-color: beige;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 8.0px );
+  -webkit-backdrop-filter: blur( 8.0px );
+  border-radius: 10px;
+  margin: 4px;
+}
+
+.card button
+{
+  position: absolute;
+  top: 40px;
+  left: 270px;
+  border: 2px solid black;
+  font-size: 1.0rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: red;
+  cursor: pointer;
+}
+
+.card button:hover
+{
+  background-color: rgb(155, 14, 14);
+}
+
+.emptyList
+{
+  margin: 20px 0px 0px 70px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
