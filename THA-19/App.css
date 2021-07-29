@@ -1,0 +1,16 @@
+.display
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.display button
+{
+  border: 2px solid black;
+  font-size: 2.0rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  margin: 0px 10px;
+}
