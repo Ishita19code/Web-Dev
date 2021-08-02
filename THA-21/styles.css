@@ -1,0 +1,73 @@
+.display
+{
+  padding-left: 400px;
+  padding-top: 20px;
+}
+.card
+{
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  top: 40px;
+  left: -80px;
+  height: 180px;
+  width: 500px;
+  margin: 40px;
+  border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn_delete
+{
+  background-color: red;
+  padding: 2px;
+  margin: 2px;
+  border-radius: 3px;
+  width: 70px;
+  border: 2px solid red;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.btn_edit
+{
+  background-color: #0d6efd;
+  padding: 2px;
+  margin: 2px;
+  border-radius: 3px;
+  width: 70px;
+  border: 2px solid #0d6efd;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  margin-left: 90px;
+  margin-top: -38px;
+  margin-bottom: 7px;
+}
+
+.inputFood, .inputCal
+{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  margin: 5px;
+  padding: 2px;
+}
+
+.add_btn
+{
+  background-color: #0d6efd;
+  position: relative;
+  top: 50px;
+  left: -417px;
+  width: 405px;
+  padding: 5px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: white;
+  border: 2px solid #0d6efd;
+  border-radius: 3px;
+}
