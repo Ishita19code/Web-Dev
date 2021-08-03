@@ -1,15 +1,15 @@
 import { useState } from "react";
 import Card from "./Card";
 import "./styles.css";
+import { v4 as uuidv4 } from 'uuid';
+
 const Form = () =>
 {
   const [fName, setFName] = useState("");
-  const [fList, setFList] = useState([]);
+  const [list, setList] = useState([]);
   const [cal, setCal] = useState("");
-  const [calList, setCalList] = useState([]);
-  
+
   return(
-  <form>
     <div className="display"> 
       <label >
         <input 
@@ -29,28 +29,31 @@ const Form = () =>
         onChange={(e) => setCal(e.target.value)}/>
       </label> 
 
-      <button className="add_btn" onClick={(event) => 
+      <button className="add_btn" onClick={() => 
       {
-        setFList([...fList, fName])
-        setCalList([...calList, cal])
+        const obj = 
+        {
+          id:uuidv4(), 
+          food: fName,
+          calorie:cal
+        }
+
+        setList([...list, obj]);
         setCal("");
         setFName("");
-        event.preventDefault();
       }
       }>Add Item</button>
 
-      {fList.map((fName, index) => {
-          const calorie = calList[index];
-          return(<Card key={index} 
-              fName={fName}
-              cal={calorie}
-              setFList={setFList}
-              fList={fList}
-              setFName={setFName}/>);
+      {list.map((obj, index) => {
+          return(<Card 
+            key={index} 
+            obj={obj}
+            setList={setList}
+            list={list}/>);
       })
       }
     </div>
-  </form>)
+  )
 }
 
 export default Form;
