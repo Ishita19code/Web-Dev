@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import store from './store';
-import { Provider } from 'react-redux';
+import App from "./App";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Provider store = {store}>
-      <App />
-    </Provider>
-  </React.StrictMode>,
-  document.getElementById('root')
+
+  //one method to write Hello World
+  // React.createElement('h1',{},"Hello World!"),
+  // document.getElementById('root')
+  //Second way to write Hello World
+  <App url="https://en.wikipedia.org/wiki/Taj_Mahal"/>, document.getElementById("root")
 );
+
+
+
